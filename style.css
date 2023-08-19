@@ -1,0 +1,26 @@
+body{
+    width: 100vh;
+}
+table{
+    border-collapse: collapse;
+    width: auto;
+    overflow-x:auto;
+}
+th,td{
+    min-width: 80px;
+    border: 1px solid #333;
+}
+td:focus{
+    outline: none;
+}
+
+#italics-btn{
+    font-style: italic;
+}
+#bold-btn{
+    font-weight: bold;
+}
+#underline-btn{
+    font-weight: bold;
+    text-decoration: underline;
+}
